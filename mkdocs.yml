@@ -33,7 +33,9 @@ pages:
           - Start: Writeups/Others/pwnable.tw/Start.md
           - hacknote: Writeups/Others/pwnable.tw/hacknote.md 
           - dubblesort: Writeups/Others/pwnable.tw/dubblesort.md 
-          - criticalheap: Writeups/Others/pwnable.tw/criticalheap.md 
+          - criticalheap: Writeups/Others/pwnable.tw/criticalheap.md
+    - pwn:
+      - radare2: pwn/radare2.md
 
 # Theme
 theme: 'material'
