@@ -8,6 +8,13 @@ repo_url: 'https://github.com/frozenkp/frozenkp.github.io'
 # Content
 pages:
     - HOME: index.md
+    - Writeups:
+      - 2014:
+        - NoConName qual:
+          - inBINcible: Writeups/2014/NoConName_qual/inBINcible.md
+      - 2015:
+        - B-Sides Vancouver: 
+          - Delphi: Writeups/2015/B-Sides_Vancouver/Delphi.md
 
 # Theme
 theme: 'material'
