@@ -15,6 +15,14 @@ pages:
       - 2015:
         - B-Sides Vancouver: 
           - Delphi: Writeups/2015/B-Sides_Vancouver/Delphi.md
+      - 2017:
+        - HITB CTF:
+          - 2017, Dating in Singapore: Writeups/2017/HITB_CTF/2017_Dating_in_Singapore.md
+          - Flying_High: Writeups/2017/HITB_CTF/Flying_High.md
+          - Pasty: Writeups/2017/HITB_CTF/Pasty.md
+        - seccon CTF:
+          - Qubic Rube: Writeups/2017/seccon_CTF/Qubic_Rube.md
+          - putchar music: Writeups/2017/seccon_CTF/putchar_music.md
 
 # Theme
 theme: 'material'
