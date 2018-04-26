@@ -28,6 +28,12 @@ pages:
           - water-impossible: Writeups/2018/BambooFox_CTF/water-impossible.md
           - infant-gotoheaven: Writeups/2018/BambooFox_CTF/infant-gotoheaven.md
           - infant-gogogo: Writeups/2018/BambooFox_CTF/infant-gogogo.md
+      - Others:
+        - pwnable.tw:
+          - Start: Writeups/Others/pwnable.tw/Start.md
+          - hacknote: Writeups/Others/pwnable.tw/hacknote.md 
+          - dubblesort: Writeups/Others/pwnable.tw/dubblesort.md 
+          - criticalheap: Writeups/Others/pwnable.tw/criticalheap.md 
 
 # Theme
 theme: 'material'
