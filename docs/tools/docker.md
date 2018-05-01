@@ -24,6 +24,12 @@ docker build -t "name:tag" .
 docker tag "name:tag" "name:tag"
 ```
 
+### push
+
+```bash
+docker push name:tag
+```
+
 ## Standard
 
 ### run
