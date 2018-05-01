@@ -30,6 +30,7 @@ pages:
           - infant-gogogo: Writeups/2018/BambooFox_CTF/infant-gogogo.md
         - ASIS CTF qual:
           - Plastic: Writeups/2018/ASIS_CTF_qual/Plastic.md
+          - Trashy Or Classy: Writeups/2018/ASIS_CTF_qual/Trashy_Or_Classy.md
       - Others:
         - pwnable.tw:
           - Start: Writeups/Others/pwnable.tw/Start.md
