@@ -31,6 +31,7 @@ pages:
         - ASIS CTF qual:
           - Plastic: Writeups/2018/ASIS_CTF_qual/Plastic.md
           - Trashy Or Classy: Writeups/2018/ASIS_CTF_qual/Trashy_Or_Classy.md
+          - Buy flags: Writeups/2018/ASIS_CTF_qual/Buy_flags.md
       - Others:
         - pwnable.tw:
           - Start: Writeups/Others/pwnable.tw/Start.md
