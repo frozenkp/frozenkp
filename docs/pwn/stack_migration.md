@@ -53,12 +53,12 @@ buf2 + rop_chain + [set_input_parameters + input_func + leave_ret]
 
 1. leave：把 `rbp` 設定成 `buf`
 2. 執行 input_func 並將輸入讀取到 `buf`
-  - 輸入新的 rbp 以及 ROP chain
+    - 輸入新的 rbp 以及 ROP chain
 3. leave：stack 跳轉到 `buf` 並將 `rbp` 設成 `buf2` 
 4. 執行 ROP chain
 5. 是否執行下一次 migration
-  - 是：跳回 2 (`buf` 和 `buf2` 對調，多次 migration 就在 `buf` 和 `buf2` 互換即可)
-  - 否：結束
+    - 是：跳回 2 (`buf` 和 `buf2` 對調，多次 migration 就在 `buf` 和 `buf2` 互換即可)
+    - 否：結束
 
 ## Fixed Size Migration
 
