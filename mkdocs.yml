@@ -40,6 +40,7 @@ pages:
           - criticalheap: Writeups/Others/pwnable.tw/criticalheap.md
     - pwn:
       - radare2: pwn/radare2.md
+      - Stack Migration: pwn/stack_migration.md
     - tools:
       - Docker: tools/docker.md
 
