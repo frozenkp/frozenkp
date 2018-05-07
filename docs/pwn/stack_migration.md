@@ -22,12 +22,12 @@ buffer overflow 以後，stack 上的情況如下
 在不用 stack migration 的時候，rbp 就隨便填就好了，反正之後不會用到，但要使用 stack migration 時，就必須先把 rbp 指定到特定的 buffer ，之後才能移動 stack
 
 ```
-rsp				AAAAAAAA
-rsp + 8			AAAAAAAA
-rsp + 16		AAAAAAAA
-... 			...
-rbp				buffer  	＃ 這裡是原本的 rbp 指定的位置，就是 mov 後 stack 的最上層
-ret 			ROP gadget
+rsp             AAAAAAAA
+rsp + 8         AAAAAAAA
+rsp + 16        AAAAAAAA
+...             ...
+rbp             buffer      ＃ 這裡是原本的 rbp 指定的位置，就是 mov 後 stack 的最上層
+ret             ROP gadget
 ```
 
 接著在下一次遇到 `leave` 時，`mov rsp, rbp` 就會將 stack 改到 buffer 上了
@@ -103,7 +103,7 @@ payload (4 bytes) + buf2 + main_read
 ```
 data (4 bytes) + buf1 + main_read
    ｜              |
-buf2 - 0x20      rbp(buf2)
+buf2 - 0x20     rbp(buf2)
 ```
 
 這樣輸入以後，就可以把 4 bytes 的 ROP chain 寫入 `buf2 - 0x20` ，然後再跳回 `buf1` 
@@ -114,7 +114,7 @@ buf2 - 0x20      rbp(buf2)
 +-------------+------+-------------+-------------+--------------+
 | buf2 - 0x20 | buf2 | buf2 + 0x20 | buf2 + 0x40 |     ...      |
 +-------------+------+-------------+-------------+--------------+
-		|         |         |             |
-	  第一次     第二次     第三次         第四次
+       |         |          |             |
+     第一次    第二次     第三次        第四次
 ```
 
