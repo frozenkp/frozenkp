@@ -41,6 +41,7 @@ pages:
     - pwn:
       - radare2: pwn/radare2.md
       - Stack Migration: pwn/stack_migration.md
+      - Format String: pwn/format_string.md
     - tools:
       - Docker: tools/docker.md
 
