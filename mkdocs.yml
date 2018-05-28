@@ -46,9 +46,10 @@ pages:
       - Docker: tools/docker.md
 
 # Theme
-theme: 'material'
-palette:
-  primary: 'deep orange'
+theme: 
+  name: 'material'
+  palette:
+    primary: 'deep orange'
 
 # Customization
 extra_javascript: 
