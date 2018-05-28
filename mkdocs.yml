@@ -50,6 +50,8 @@ theme:
   name: 'material'
   palette:
     primary: 'deep orange'
+  logo:
+    icon: 'security'
 
 # Customization
 extra_javascript: 
