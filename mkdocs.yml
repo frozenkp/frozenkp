@@ -47,6 +47,8 @@ pages:
 
 # Theme
 theme: 'material'
+palette:
+  primary: 'deep orange'
 
 # Customization
 extra_javascript: 
