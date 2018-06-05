@@ -73,7 +73,7 @@ k-d tree 是 k-dimensional tree 的縮寫，也就是 k 維樹，簡單來說，
 5. 重複執行 2, 3, 4 步直到到達根節點
 
 
-## knn使用k-d tree
+## knn 使用 k-d tree
 所謂的 knn 指的是 k nearest neighbors，顧名思義，knn 就是要在一堆資料中找出離某資料最近的 k 筆
 
 最簡單也最耗時的作法就是全部都計算出距離後，再排列後拿出最近的 k 個，這個作法稱作 **linear**
@@ -85,7 +85,7 @@ k-d tree 是 k-dimensional tree 的縮寫，也就是 k 維樹，簡單來說，
 
 ![](http://i.imgur.com/cyMhonu.jpg)
 
-### 前k個最小值搜尋
+### 前 k 個最小值搜尋
 我的作法是使用一個容量為 k 的 heap，在搜尋的過程中
 
 - 如果 heap 還未滿，則加入當前的節點，且搜尋當前節點的另一個子樹
