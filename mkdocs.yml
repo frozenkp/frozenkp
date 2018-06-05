@@ -44,6 +44,8 @@ pages:
       - Format String: pwn/format_string.md
     - tools:
       - Docker: tools/docker.md
+    - algorithm:
+      - k-d tree: algorithm/kdtree.md
 
 # Theme
 theme: 
