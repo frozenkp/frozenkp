@@ -275,3 +275,5 @@ p
 e anal.jmptbl = true
 ```
 
+## Notes
+- [r2 analyzes stripped binary](https://blog.techorganic.com/2016/03/08/radare-2-in-0x1e-minutes/)
