@@ -261,6 +261,20 @@ p
 <enter> 		# 退回 Visual Mode
 ```
 
+### define function
+
+輸入 df 就會自動定義 function 了
+
+### patch
+
+先用 `s` 移動到要 patch 的位置，接著輸入 `A` 可以看到當前的指令
+
+此時鍵入要改的組合語言即可
+
+> 開啟時要用 r2 -w {file} 才能寫入
+
+![](https://i.imgur.com/IUX1TxV.png)
+
 ## Evaluable vars
 
 一些環境設定
