@@ -64,17 +64,17 @@ Only `open` `read` `write` syscall are allowed to use.
 最後我選擇參考 [x86 syscall](https://syscalls.kernelgrok.com/) 逐步構造出 `open` `read` `write` 
 
 - `open(file='esp', oflag='O_RDONLY', mode=0)`
-  - 這個我採用 pwntool 輸出的寫法
+    - 這個我採用 pwntool 輸出的寫法
 - `read(fd, buf, length)`
-  - `eax` 是 0x3
-  - `fd` 存在 `open()` 的回傳結果 (`eax`)
-  - `buf` 選在 `esp`
-  - `length` 是 60
+    - `eax` 是 0x3
+    - `fd` 存在 `open()` 的回傳結果 (`eax`)
+    - `buf` 選在 `esp`
+    - `length` 是 60
 - `write(stdout, buf, length)`
-  - `eax` 是 0x4
-  - `stdout` 是 1
-  - `buf` 是剛剛讀取的 `esp`
-  - `length` 是 60
+    - `eax` 是 0x4
+    - `stdout` 是 1
+    - `buf` 是剛剛讀取的 `esp`
+    - `length` 是 60
 
 ```assembly
 /* push '/home/orw/flag\x00' */
