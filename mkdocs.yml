@@ -35,16 +35,17 @@ pages:
       - Others:
         - pwnable.tw:
           - Start: Writeups/Others/pwnable.tw/Start.md
+          - orw: Writeups/Others/pwnable.tw/orw.md
           - hacknote: Writeups/Others/pwnable.tw/hacknote.md 
           - dubblesort: Writeups/Others/pwnable.tw/dubblesort.md 
           - criticalheap: Writeups/Others/pwnable.tw/criticalheap.md
-    - pwn:
+    - Pwn:
       - radare2: pwn/radare2.md
       - Stack Migration: pwn/stack_migration.md
       - Format String: pwn/format_string.md
-    - tools:
+    - Tools:
       - Docker: tools/docker.md
-    - algorithm:
+    - Algorithm:
       - k-d tree: algorithm/kdtree.md
 
 # Theme
