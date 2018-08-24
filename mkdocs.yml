@@ -40,9 +40,11 @@ pages:
           - dubblesort: Writeups/Others/pwnable.tw/dubblesort.md 
           - criticalheap: Writeups/Others/pwnable.tw/criticalheap.md
     - Pwn:
-      - radare2: pwn/radare2.md
       - Stack Migration: pwn/stack_migration.md
       - Format String: pwn/format_string.md
+    - Reverse:
+      - radare2: reverse/radare2.md
+      - Go: reverse/go.md
     - Tools:
       - Docker: tools/docker.md
     - Algorithm:
