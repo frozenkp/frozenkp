@@ -11,7 +11,3 @@ Feel free to contact me for any questions.
 - [Facebook](https://www.facebook.com/frozenkp)
 - [Twitter](https://twitter.com/csjh21010)
 
-## Donate
-Welcome to donate with Line Pay. Thank you. OwO
-
-![](https://i.imgur.com/PMtsFoy.jpg)
