@@ -229,7 +229,7 @@ stack 上都會有一段是 argv 的位置，argv chain 上的兩段位址都在
 
 #### 第一步：透過 argv1 寫 2 bytes
 
-一開始先在 argv2 的值寫上 `0xef` ，payload 如下
+一開始先在 argv2 的值寫上 `0xbeef` ，payload 如下
 
 ```
 %48879c%43$hn
