@@ -64,10 +64,10 @@ buf2 + rop_chain + [set_input_parameters + input_func + leave_ret]
 
 在不能控制輸入長度時，就只能使用原本的 `read` 來多次輸入 ROP chain
 
-架設有一個 `read` 如下，只能夠輸入一個 Gadget
+假設有一個 `read` 輸入後如下，只能夠輸入一個 Gadget
 
 ```
-payload (4 bytes) + rbp + ret
+payload (4*8 bytes) + rbp + ret
 ```
 
 這時候就只能 return 到原本的 `read` (以下稱 `main_read`)
@@ -79,7 +79,7 @@ payload (4 bytes) + rbp + ret
 第一次只是為了將 stack 移動到 buf 上而已
 
 ```
-payload (4 bytes) + buf1 + main_read
+payload (4*8 bytes) + buf1 + main_read
 ```
 
 1. leave：把 `rbp` 設定成 `buf1`
