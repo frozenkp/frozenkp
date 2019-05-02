@@ -91,22 +91,22 @@ payload (4*8 bytes) + buf1 + main_read
 一開始是先送第一次 migration 的輸入
 
 ```
-payload (4 bytes) + buf2 + main_read
+payload (4*8 bytes) + buf2 + main_read
       ｜              |
   rbp - 0x20         rbp
 ```
 
-前面 4 bytes 就隨便放就好了，接著將 `rbp` 設成 `buf2` ，然後回到 `main_read`
+前面 4*8 bytes 就隨便放就好了，接著將 `rbp` 設成 `buf2` ，然後回到 `main_read`
 
 第二次執行 `main_read` 時，會把輸入寫到 `buf2 - 0x20`，這時後輸入：
 
 ```
-data (4 bytes) + buf1 + main_read
+data (4*8 bytes) + buf1 + main_read
    ｜              |
 buf2 - 0x20     rbp(buf2)
 ```
 
-這樣輸入以後，就可以把 4 bytes 的 ROP chain 寫入 `buf2 - 0x20` ，然後再跳回 `buf1` 
+這樣輸入以後，就可以把 4*8 bytes 的 ROP chain 寫入 `buf2 - 0x20` ，然後再跳回 `buf1` 
 
 接著就重複執行以上兩步就可以了，需要注意的是，如果每次都是給 `buf2` 會一直覆蓋掉，所以要一直更新位置
 
