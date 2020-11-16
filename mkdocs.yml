@@ -52,12 +52,13 @@ pages:
     - About: about.md
 
 # Theme
-theme: 
-  name: 'material'
-  palette:
-    primary: 'deep orange'
-  logo:
-    icon: 'security'
+theme: 'windmill'
+#theme: 
+#  name: 'material'
+#  palette:
+#    primary: 'deep orange'
+#  logo:
+#    icon: 'security'
 
 # Customization
 extra_javascript: 
