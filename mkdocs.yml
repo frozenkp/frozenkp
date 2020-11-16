@@ -49,6 +49,7 @@ pages:
       - Docker: tools/docker.md
     - Algorithm:
       - k-d tree: algorithm/kdtree.md
+    - About: about.md
 
 # Theme
 theme: 
