@@ -16,6 +16,8 @@ Currently a Ph.D student in National Taiwan University.
 | HITB CyberWeek 2020 | Leverage macOS into battlefield: Construct macOS Cyber Range for Red / Blue Team |
 | Codeblue 2021 | Engagement with Ransomware - Decrypting and Vaccinating |
 | HITCON 2021 | No Time To Die - Ransomware Will Return |
+| HITCON 2022 | Malware Behavior Analysis Acceleration based on Graph Neural Networks |
+| AVTOKYO 2022 | Software Development In Another World - The Malware Industry |
 
 ### Publications
 | Conference | Year | Subject |
