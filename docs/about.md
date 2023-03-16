@@ -18,6 +18,7 @@ Currently a Ph.D student in National Taiwan University.
 | HITCON 2021 | No Time To Die - Ransomware Will Return |
 | HITCON 2022 | Malware Behavior Analysis Acceleration based on Graph Neural Networks |
 | AVTOKYO 2022 | Software Development In Another World - The Malware Industry |
+| SECCON 2022 | Next Generation Sandbox with A Little Help From Machine Learning |
 
 ### Publications
 | Conference | Year | Subject |
