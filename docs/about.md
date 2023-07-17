@@ -25,6 +25,6 @@ Currently a Ph.D student in National Taiwan University.
 | -- | :--: | -- |
 | The 2018 IEEE Conference on Dependable and Secure Computing | 2018 | Design and Implement of a Binary Fuzzer based on Libfuzzer |
 | ASIA CCS '20: Proceedings of the 15th ACM Asia Conference on Computer and Communications | 2020 | POSTER: Construct macOS Cyber Range for Red/Blue Teams |
-
+| IEEE Transactions on Information Forensics and Security | 2023 | Guided Malware Sample Analysis based on Graph Neural Networks |
 
 
